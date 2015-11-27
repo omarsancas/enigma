@@ -1,0 +1,186 @@
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+
+/*Fluid grid layout
+-------------------------------------*/
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1194px;
+    width: 100%;
+}
+
+/* Grid >> Children (First,Last)
+----------------------------------------------------------------------------------------------------*/
+
+.first {
+    margin-left: 0;
+}
+.last {
+    margin-right: 0;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Columns
+/*-----------------------------------------------------------------------------------*/
+.one_half { width: 48%; }
+.one_third { width: 31.333%; }
+.two_third { width: 64.667%; }
+.one_fourth { width: 23%; }
+.two_fourth { width: 48%; }
+.three_fourth { width: 73%; }
+.one_fifth { width: 18%; }
+.two_fifth { width: 38%; }
+.three_fifth { width: 58%; }
+.four_fifth { width: 78%; }
+.one_sixth { width: 14.667%; }
+.five_sixth { width: 81.333%; }
+
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.two_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.five_sixth {
+  position: relative;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+/* Offsets */
+.offset {
+  min-height: 1px;
+}
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+  display:inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.row-fluid, .row {
+  margin-left: -1%;
+  margin-right: -1%;
+}
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.alpha {
+  margin-left: 0;
+}
+.omega {
+  margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+.span1 {
+  width:6.333%;
+}
+.span2 {
+  width:14.667%;
+}
+.span3 {
+  width:23.0%;
+}
+.span4 {
+  width:31.3%;
+}
+.span5 {
+  width:39.667%;
+}
+.span6 {
+  width:48.0%;
+}
+.span7 {
+  width:56.333%;
+}
+.span8 {
+  width:64.667%;
+}
+.span9 {
+  width:73.0%;
+}
+.span10 {
+  width:81.333%;
+}
+.span11 {
+  width:89.667%;
+}
+.span12 {
+  width:98.0%;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+/* Self Clearing Goodness */
+.container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.row:after,
+.clearfix:after {    clear: both }
+
+.row,
+.clearfix {    zoom: 1 }
+
+.clear {
+    clear: both;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.vc-element > .span1,
+.vc-element > .span2,
+.vc-element > .span3,
+.vc-element > .span4,
+.vc-element > .span5,
+.vc-element > .span6,
+.vc-element > .span7,
+.vc-element > .span8,
+.vc-element > .span9,
+.vc-element > .span10,
+.vc-element > .span11,
+.vc-element > .span12 {
+  width: 100%;
+  margin: 0;
+}

@@ -1,0 +1,2 @@
+[23-Jan-2015 05:42:04 UTC] PHP Fatal error:  Cannot redeclare class WXR_Parser in /home/enigmaro/domains/enigmarooms.com.mx/public_html/wp-content/plugins/wordpress-importer/parsers.php on line 12
+[23-Jan-2015 05:42:11 UTC] PHP Fatal error:  Cannot redeclare class WXR_Parser in /home/enigmaro/domains/enigmarooms.com.mx/public_html/wp-content/plugins/wordpress-importer/parsers.php on line 12
